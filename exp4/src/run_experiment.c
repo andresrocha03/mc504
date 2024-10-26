@@ -18,6 +18,7 @@ int main(int argc, char *argv[]) {
 
         for (int j = 0; j < execs_cpu; j++) {
             cpu_bound();
+            
         }
 
         for (int j = 0; j < execs_io; j++) {
